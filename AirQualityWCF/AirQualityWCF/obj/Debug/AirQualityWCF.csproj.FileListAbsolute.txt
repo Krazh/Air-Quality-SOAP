@@ -1,0 +1,6 @@
+c:\users\krazh\documents\visual studio 2015\Projects\AirQualityWCF\AirQualityWCF\bin\AirQualityWCF.dll.config
+c:\users\krazh\documents\visual studio 2015\Projects\AirQualityWCF\AirQualityWCF\bin\AirQualityWCF.dll
+c:\users\krazh\documents\visual studio 2015\Projects\AirQualityWCF\AirQualityWCF\bin\AirQualityWCF.pdb
+c:\users\krazh\documents\visual studio 2015\Projects\AirQualityWCF\AirQualityWCF\obj\Debug\AirQualityWCF.csprojResolveAssemblyReference.cache
+c:\users\krazh\documents\visual studio 2015\Projects\AirQualityWCF\AirQualityWCF\obj\Debug\AirQualityWCF.dll
+c:\users\krazh\documents\visual studio 2015\Projects\AirQualityWCF\AirQualityWCF\obj\Debug\AirQualityWCF.pdb
