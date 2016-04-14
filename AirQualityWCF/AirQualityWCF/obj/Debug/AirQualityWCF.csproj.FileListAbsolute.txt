@@ -4,3 +4,9 @@ c:\users\krazh\documents\visual studio 2015\Projects\AirQualityWCF\AirQualityWCF
 c:\users\krazh\documents\visual studio 2015\Projects\AirQualityWCF\AirQualityWCF\obj\Debug\AirQualityWCF.csprojResolveAssemblyReference.cache
 c:\users\krazh\documents\visual studio 2015\Projects\AirQualityWCF\AirQualityWCF\obj\Debug\AirQualityWCF.dll
 c:\users\krazh\documents\visual studio 2015\Projects\AirQualityWCF\AirQualityWCF\obj\Debug\AirQualityWCF.pdb
+C:\Users\krazh.MYCRIB\Documents\Visual Studio 2015\Projects\AirQuality\AirQualityWCF\AirQualityWCF\bin\AirQualityWCF.dll.config
+C:\Users\krazh.MYCRIB\Documents\Visual Studio 2015\Projects\AirQuality\AirQualityWCF\AirQualityWCF\bin\AirQualityWCF.dll
+C:\Users\krazh.MYCRIB\Documents\Visual Studio 2015\Projects\AirQuality\AirQualityWCF\AirQualityWCF\bin\AirQualityWCF.pdb
+C:\Users\krazh.MYCRIB\Documents\Visual Studio 2015\Projects\AirQuality\AirQualityWCF\AirQualityWCF\obj\Debug\AirQualityWCF.csprojResolveAssemblyReference.cache
+C:\Users\krazh.MYCRIB\Documents\Visual Studio 2015\Projects\AirQuality\AirQualityWCF\AirQualityWCF\obj\Debug\AirQualityWCF.dll
+C:\Users\krazh.MYCRIB\Documents\Visual Studio 2015\Projects\AirQuality\AirQualityWCF\AirQualityWCF\obj\Debug\AirQualityWCF.pdb
