@@ -12,9 +12,10 @@ namespace AirQualityWCF.Model.Helpers
         public SqlConnection SqlConnection { get; set; }
 
         readonly string _connectionString =
-                "Server=tcp:mortensql.database.windows.net,1433;Database=AirQuality;" +
-                "User ID=sqladmin@mortensql;Password=sortTelefon1;Encrypt=True;" +
-                "TrustServerCertificate=False;";
+                "Data Source=192.168.1.41,1433;Initial Catalog=AirQuality;" +
+                "Integrated Security=False;User ID=testConn;" +
+                "Password=test1234;Connect Timeout=30;Encrypt=False;" +
+                "TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;";
 
         public Connection()
         {
