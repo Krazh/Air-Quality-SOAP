@@ -14,7 +14,7 @@ namespace AirQualityWCF.Model
         public int Id { get; set; }
 
         [DataMember]
-        public string Resultat { get; set; }
+        public double Resultat { get; set; }
 
         [DataMember]
         public DateTime Datomaerke { get; set; }

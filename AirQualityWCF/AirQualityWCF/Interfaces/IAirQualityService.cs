@@ -16,6 +16,9 @@ namespace AirQualityWCF.Interfaces
         List<Analyse> HentAnalyserGnsByMonth(int month, int stofId);
 
         [OperationContract]
+        List<Analyse> GetResultsForDayByCompound(int day, int month, int stofId);
+
+        [OperationContract]
         List<Stof> GetAllStof();
 
         [OperationContract]
@@ -29,6 +32,8 @@ namespace AirQualityWCF.Interfaces
 
         [OperationContract]
         List<Maalested> GetAllMaalested();
+
+
     }
 
 }

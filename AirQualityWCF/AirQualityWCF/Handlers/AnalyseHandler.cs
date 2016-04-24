@@ -123,11 +123,11 @@ namespace AirQualityWCF.Handlers
                         int aRes = rdr.GetOrdinal("Resultat");
                         if (mode == 1)
                         {
-                            a.Resultat = rdr.GetString(aRes);
+                            a.Resultat = Convert.ToDouble(rdr.GetString(aRes));
                         }
                         else if (mode == 2)
                         {
-                            a.Resultat = rdr.GetDecimal(aRes).ToString();
+                            a.Resultat = Convert.ToDouble(rdr.GetDecimal(aRes));
                         }
                         
                         int aDato = rdr.GetOrdinal("Datomaerke");
@@ -162,6 +162,27 @@ namespace AirQualityWCF.Handlers
 
             return _analyser;
         }
+
+        public List<Analyse> GetAnalysisByDay(int day, int month, int stofId)
+        {
+            _analyser.Clear();
+            SqlCommand cmd = new SqlCommand("GetResultsForDayByCompound", _connection.SqlConnection);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("day", day);
+            cmd.Parameters.AddWithValue("month", month);
+            cmd.Parameters.AddWithValue("stof", stofId);
+
+            try
+            {
+                FillListFromReader(cmd, 2);
+            }
+            catch (Exception ex)
+            {
+                error = ex.Message;
+            }
+
+            return _analyser;
+        } 
 
         public List<Stof> GetAllStof()
         {

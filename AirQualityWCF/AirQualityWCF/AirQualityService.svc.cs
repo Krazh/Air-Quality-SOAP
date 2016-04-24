@@ -45,6 +45,11 @@ namespace AirQualityWCF
             }
         }
 
+        public List<Analyse> GetResultsForDayByCompound(int day, int month, int stofId)
+        {
+            return _analyseHandler.GetAnalysisByDay(day, month, stofId);
+        }
+
         public List<Stof> GetAllStof()
         {
             return _analyseHandler.GetAllStof();
